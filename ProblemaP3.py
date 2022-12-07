@@ -22,17 +22,7 @@ def saltoDivisor(m:int,k:int):
       return R[m-1]
 
 
-#Casos de prueba
 
-"""
-rta1 = saltoDivisor(8,1)
-rta2 = saltoDivisor(10,2)
-rta3 = saltoDivisor(10000,3)
-rta4 = saltoDivisor(10000,7)
-rta5 = saltoDivisor(200000,1) #El que mas se demora
-
-print(rta)
-"""
 def main():
     linea = sys.stdin.readline() 
     casos = int(linea)
